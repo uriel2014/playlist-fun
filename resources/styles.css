@@ -1,0 +1,101 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  min-width: 570px;
+  font-family: "Work Sans", sans-serif;
+  line-height: 2.5;
+}
+
+/*Give the body a min-width screen size of 570px and all to be the given font. */
+
+/*HEADER SECTION */
+
+.header{
+  background-color: rgb(35,2,63);
+  padding: 2.75rem 0;
+}
+
+.header h1{
+  font-family: "Righteous", cursive;
+  color: rgb(255,0,171);
+  font-size: 2.5rem;
+}
+
+.header input{
+  background-color:rgb(191,191,191);
+  color: maroon;
+  border-radius: 19px;
+  margin-right: .625rem;
+}
+
+.header .fa-search {
+  background-color: rgb(255,102,204);
+  padding: .5rem;
+  border-radius: 19px;
+  text-align: center;
+}
+
+.header .fa-search:hover{
+  background-color: rgb(255, 0, 171);
+  cursor: pointer;
+}
+/* The next row is the attributes row, which will need styling */
+.attributes {
+  background-color: #6800ff;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* The following code will be present once the javascript takes hold */
+
+input:focus {
+  outline: none;
+  background-color: pink;
+}
+/* This is when you input song or track name into the search button */
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Provide no underline on the links */
+
+.track {
+  display: flex;
+  padding: .6rem;
+  border-bottom: 1px solid #cccccc;
+  line-height: 1;
+}
+
+/* This is for the track line, give it padding space, display flex, give it a
+border on the bottom and a line-height */
+
+.track:hover {
+  background-color: #f0eef3;
+}
+/* change background when hovering */
+
+.track div {
+  display: flex;
+  align-items: center;
+}
+
+/* Give ach div in the track row display Flex with justify content as
+flex-start and vertical alignment with center. */
+
+
+.play-button a {
+  display: flex;
+  align-items: center;
+  color: #ff00ab;
+}
+/* Properties to give to the button with flex */
+
+.play-button a:hover {
+  color: maroon;
+}
+/* Color when you hover over the play-button*/
